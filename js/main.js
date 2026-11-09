@@ -1,6 +1,6 @@
 (()=>{const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),R=document.documentElement,hd=$('#hd'),yr=new Date().getFullYear();
 const MQ={ar:['مطار الرياض','موانئ ومطارات الدمام','جدة: مطار وميناء','محطات السكك الحديدية','منفذ الحديثة','تخليص جمركي'],en:['Riyadh Airport','Dammam Ports & Airports','Jeddah: Airport & Port','Railway Stations','Al-Haditha Border Crossing','Customs Clearance']};
-const TT={ar:'محمد جودة | مستخلص جمركي · عالم التخليص',en:'Mohamed Gouda | Customs Broker · Alam Al-Takhlis'};
+const TT={ar:'محمد جوده | مخلص جمركي · عالم التخليص',en:'Mohamed Gouda | Customs Broker · Alam Al-Takhlis'};
 const save=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}},load=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
 $('#yrs').dataset.to=yr-1970;
 $$('[data-en]').forEach(el=>el.dataset.ar=el.innerHTML);$$('[data-en-label]').forEach(el=>el.dataset.arLabel=el.getAttribute('aria-label'));
